@@ -1,0 +1,43 @@
+{
+  "name": "VeloDrive - All Vehicle Rental Marketplace",
+  "short_name": "VeloDrive",
+  "description": "A peer-to-peer (P2P) vehicle rental and ride-hailing hybrid marketplace.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Rent a Vehicle",
+      "short_name": "Rent",
+      "description": "Browse vehicles and book a rental",
+      "url": "/renter/dashboard"
+    },
+    {
+      "name": "Owner Dashboard",
+      "short_name": "Owner",
+      "description": "Manage your vehicles and earnings",
+      "url": "/owner/dashboard"
+    },
+    {
+      "name": "Wallet",
+      "short_name": "Wallet",
+      "description": "Top up, withdraw, and view transactions",
+      "url": "/wallet"
+    }
+  ]
+}
